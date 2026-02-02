@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react"
 
-const API_KEY = "fb2fcaa99b21ce67b8da0b3878a79baa"
+const API_KEY = "Enter your API_KEY"
 
 export function useWeatherInfo(city) {
   const [weather, setWeather] = useState(null)
