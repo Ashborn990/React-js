@@ -9,7 +9,7 @@ export function useWeatherInfo(city) {
   const [error, setError] = useState("")
 
   useEffect(() => {
-    if (!city) return
+    if (!city) returnxxxxxx
 
     const fetchWeather = async () => {
       try {
