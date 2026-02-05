@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react"
 
-const API_KEY = "Enter your API_KEY"
+const API_KEY = "fb2fcaa99b21ce67b8da0b3878a79baa"
 
 export function useWeatherInfo(city) {
   const [weather, setWeather] = useState(null)
@@ -9,7 +9,7 @@ export function useWeatherInfo(city) {
   const [error, setError] = useState("")
 
   useEffect(() => {
-    if (!city) returnxxxxxx
+    if (!city) return
 
     const fetchWeather = async () => {
       try {
